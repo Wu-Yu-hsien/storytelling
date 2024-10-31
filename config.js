@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/mapbox/standard-satellite',
     accessToken: 'pk.eyJ1IjoieXVoc2llbiIsImEiOiJjbTJ4cWs1dDMwMzlvMmxwdDVxdmpuam5pIn0.CSbkqDupkpmQxddLYRtCYQ',
     showMarkers: true,
     markerColor: '#3FB1CE',
@@ -19,8 +19,8 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'Where am I',
-            image: './path/to/image/source.png',
+            title: 'Where am I now',
+            image: 'https://images.app.goo.gl/7F1ffL9DQdCAjFGg8',
             description: 'The point shows Pratt Institute Manhattan Campus',
             location: {
                 center: [40.73868577852847, -73.99894206932011],
